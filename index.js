@@ -29,11 +29,11 @@
     return EX.jsonify(x).replace(EX.nonAsciiRgx, EX.toCharCode);
   };
 
-  EX.toPlainUrl = function toPlainUrl(x) {
+  EX.toPlainUri = function toPlainUri(x) {
     return 'data:' + EX.mimeType + ',' + encodeURI(EX.jsonify(x));
   };
 
-  EX.toBase64Url = function toBase64Url(x) {
+  EX.toBase64Uri = function toBase64Uri(x) {
     // Unfortunately, I don't know a concise, elegant way to do
     // proper UTF-8 base64 in a browser, so we'll instead waste
     // precious bytes on lots of '\u00'.
