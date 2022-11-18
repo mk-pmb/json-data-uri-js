@@ -18,7 +18,7 @@ This module exports an object that holds these functions:
 
 ### parse(uri)
 
-Try to parse JSON data from a data uri.
+Try to parse JSON data from a data URI given as string `uri`.
 Returns decoded data, or `undefined` if there was an error.
 
 
