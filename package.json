@@ -1,0 +1,40 @@
+{ "name": "json-data-uri",
+  "version": "0.0.1",
+  "description": "Parse and encode (plain or Base64) data URLs with JSON content and correct MIME type.",
+  "keywords": [
+    "base64",
+    "data URI",
+    "data URL",
+    "JSON"
+  ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/json-data-uri-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/json-data-uri-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/json-data-uri-js/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "ISC",
+
+  "main": "index.js",
+  "scripts": { "test": "elp && nodemjs test/all.mjs" },
+  "directories": { "test": "test" },
+  "eslintConfig": { "extends": "nodejs-pmb" },
+
+  "dependencies": {},
+  "devDependencies": {
+    "eslint-config-nodejs-pmb": "^0.3.5",
+    "eslint-plugin-json-light-pmb": "^1.0.7",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-pretty-pmb": "^1.0.5",
+    "nodemjs": "^0.1.12"
+  },
+
+
+  "engines": { "npm": ">=7.0.0", "node": ">=16.0.0" }
+}
