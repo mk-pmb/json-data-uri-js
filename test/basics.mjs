@@ -13,9 +13,9 @@ function multitest(x, plain, b64) {
   test(preview(x), (t) => {
     t.plan(2 + (plain ? 2 : 0));
     const p = daj + ',' + (plain || '');
-    t.equal(jdu.toPlainUrl(x), p);
+    t.equal(jdu.toPlainUri(x), p);
     const b = daj + ';base64,' + (b64 || '');
-    t.equal(jdu.toBase64Url(x), b);
+    t.equal(jdu.toBase64Uri(x), b);
     if (plain) {
       t.same(jdu.parse(p), x);
       t.same(jdu.parse(b), x);

@@ -1,6 +1,6 @@
 { "name": "json-data-uri",
-  "version": "0.1.0",
-  "description": "Parse and encode (plain or Base64) data URLs with JSON content and correct MIME type.",
+  "version": "0.2.0",
+  "description": "Parse and encode (plain or Base64) data URIs with JSON content and correct MIME type.",
   "keywords": [
     "base64",
     "data URI",

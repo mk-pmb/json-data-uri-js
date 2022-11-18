@@ -5,7 +5,7 @@ json-data-uri
 <!--/#echo -->
 
 <!--#echo json="package.json" key="description" -->
-Parse and encode (plain or Base64) data URLs with JSON content and correct
+Parse and encode (plain or Base64) data URIs with JSON content and correct
 MIME type.
 <!--/#echo -->
 
@@ -22,14 +22,14 @@ Try to parse JSON data from a data URI given as string `uri`.
 Returns decoded data, or `undefined` if there was an error.
 
 
-### toPlainUrl(data)
+### toPlainUri(data)
 
 Convert JSON-able `data` to a plain text data: URI.
 Returns a URI as a string.
 With bad input, the content part of the URI will be broken.
 
 
-### toBase64Url(data)
+### toBase64Uri(data)
 
 Convert JSON-able `data` to a base64-encoded data: URI.
 Returns a URI as a string.
